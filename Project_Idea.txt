@@ -1,4 +1,16 @@
-Inspo : https://cityexpert.rs/, https://bulevar-nekretnine.rs/?gclid=Cj0KCQiAhc-sBhCEARIsAOVwHuSwFKp9DC57FgB0DiX4wDIPkWHblBUHzdoVtsH3HgFa0sL0daN6-gcaAji7EALw_wcB
+Inspo : https://cityexpert.rs/, https://bulevar-nekretnine.rs
 
 Pages:  Home, Izdavanje, Prodaja
 Features: Login, Register, Filter(by category(Stan, Kuca, Lokal, Plac, Garaza), by place(NS, BG), by price(from - to), by sqares(from - to)), by RoomNumber(select how many rooms),by Parking(), 
+
+
+Entities: User and Property
+
+User Entity properties:
+id: string,
+firstname: string,
+lastname: string,
+email: string,
+password: string,
+role: admin || user
+
